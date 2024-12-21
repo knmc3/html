@@ -4,4 +4,5 @@ body {
 
 body > div {
   border:thin solid gray;
+  width:50%;
 }
