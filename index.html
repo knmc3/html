@@ -7,7 +7,11 @@
     <div id="lw">left window</div>
     <div id="rw"><div><button id="save">local strage保存</button></div><textarea id="note"></textarea></div>
     <script>
-      alert("test alert");
+      let n = document.getElementById('note');
+      let lw = document.getElementById('lw');
+      n.oninput=({target:t})=>{
+        lw.innerHTML=t.value;
+      }
     </script>
   </body>
 </html>
