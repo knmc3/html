@@ -1,3 +1,7 @@
 body {
   display:flex;
 }
+
+body > div {
+  border:thin solid gray;
+}
