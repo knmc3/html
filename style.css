@@ -6,3 +6,8 @@ body > div {
   border:thin solid gray;
   width:50%;
 }
+
+#rw {
+  display:flex;
+  flex-direction: column;
+}
