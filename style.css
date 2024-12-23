@@ -1,6 +1,5 @@
 body {
   display:flex;
-　font-size:16px;
 }
 
 body > div {
@@ -16,4 +15,5 @@ body > div {
 #note {
   width:100%;
   height:60%;
+  font-size:16px;
 }
