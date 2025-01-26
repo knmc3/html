@@ -15,10 +15,9 @@ body > div {
 #note {
   width:100%;
   height:60%;
-  font-size:4vw;
 }
 
-button {
+body {
     font-size:4vw;
-    }
+}
     
